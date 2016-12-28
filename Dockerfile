@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20161014
-MAINTAINER sameer@damagehead.com
+FROM armv7/armhf-ubuntu:16.04
+MAINTAINER info@ryangrenz.com
 
 ENV REDIS_USER=redis \
     REDIS_DATA_DIR=/var/lib/redis \
